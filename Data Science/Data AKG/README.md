@@ -182,19 +182,6 @@ coverage report -m
 - Include unit tests untuk fitur baru
 - Maintain test coverage >85%
 
-## 📄 License
-
-Project ini menggunakan lisensi MIT. Lihat [LICENSE](LICENSE) untuk detail.
-
-## 📞 Support & Contact
-
-Untuk issues, questions, atau suggestions:
-- Buat GitHub Issue untuk bug reports
-- Diskusi di team chat untuk general questions
-- Code review request untuk PR changes
-
-## 🔄 Changelog
-
 ### v1.0.0 (Current)
 - Initial release
 - Extract, Transform, Load pipeline complete
