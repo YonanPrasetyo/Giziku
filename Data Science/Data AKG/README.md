@@ -25,7 +25,8 @@ GiziKu-ETL/
 │   ├── test_transform.py     # Unit tests untuk transform module
 │   └── __init__.py
 ├── akg_indonesia_final.csv   # Output file (CSV)
-├── akg_raw.csv               # Raw data backup
+├── EDA_DATA_AKG.ipynb               # Analisis dataset
+├── Data_Dictionary_AKG_Indonesia # Penjelasan terkait dataset
 ├── requirements.txt          # Python dependencies
 ├── .gitignore               # Git exclusion rules
 └── README.md                # Project documentation
