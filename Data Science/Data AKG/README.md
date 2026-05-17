@@ -26,6 +26,7 @@ GiziKu-ETL/
 │   └── __init__.py
 ├── akg_indonesia_final.csv   # Output file (CSV)
 ├── EDA_DATA_AKG.ipynb               # Analisis dataset
+├── ab_testing_akg.py                #Uji hipotesis statistik makronutrisi & validasi fitur rekomendasi GiziKu
 ├── Data_Dictionary_AKG_Indonesia # Penjelasan terkait dataset
 ├── requirements.txt          # Python dependencies
 ├── .gitignore               # Git exclusion rules
