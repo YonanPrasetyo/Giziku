@@ -74,7 +74,6 @@ st.sidebar.markdown("Tentukan rentang usia dan jenis kelamin si kecil untuk meny
 
 selected_gender = st.sidebar.radio("Jenis Kelamin Anak:", ['Laki-laki', 'Perempuan'])
 
-# Teks diubah menjadi 'Anak Prasekolah (6 tahun)' sesuai keinginan Anda
 selected_usia = st.sidebar.selectbox(
     "Usia Anak Saat Ini:", 
     [
@@ -84,7 +83,7 @@ selected_usia = st.sidebar.selectbox(
     ]
 )
 
-# LOGIKA AKG: Jika memilih '6 tahun', sistem di balik layar tetap mencari '4-6' agar sinkron dengan dataset Anda
+# LOGIKA AKG
 if '6 tahun' in selected_usia:
     df_akg_filtered = df_akg[(df_akg['Kategori'] == 'Bayi/Anak') & (df_akg['Label_Umur_Kondisi'].str.contains('4-6', na=False))]
 elif '7-9' in selected_usia:
@@ -118,7 +117,6 @@ st.sidebar.markdown(f"""
 # ==========================================
 # 4. HALAMAN UTAMA: ANTARMUKA ORANG TUA
 # ==========================================
-# Judul dikembalikan ke rentang 6-12 Tahun sesuai request Anda
 st.title("👦 Kalkulator & Kamus Gizi Anak Sekolah (Usia 6-12 Tahun)")
 st.markdown("Selamat datang Ayah & Bunda! Dashboard ini dirancang khusus untuk memantau apakah menu sarapan, bekal sekolah, atau jajanan harian si kecil sudah sehat seimbang atau justru mengandung gula berlebih.")
 st.markdown("---")
