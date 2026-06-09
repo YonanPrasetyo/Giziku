@@ -22,3 +22,10 @@ pip install -r requirements.txt
 
 ```
 streamlit run app.py
+
+```
+## URL Streamlit
+
+```
+https://dashboard-giziku-kenqy6bm9hyq8gq7typxrc.streamlit.app/
+```
